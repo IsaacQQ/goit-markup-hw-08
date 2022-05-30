@@ -38,7 +38,8 @@ list-style: none;
 }
 
 .header-link{
-    text-decoration: none;
+    
+text-decoration: none;
 font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 500;
@@ -51,6 +52,7 @@ color: var(--header-color);
 .header-link:hover,
 .header-link:focus{
 color: #2196F3;
+text-decoration: none;
 }
 
 .mail-color{
