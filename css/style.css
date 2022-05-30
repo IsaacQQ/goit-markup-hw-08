@@ -67,13 +67,26 @@ color: var(--header-color);
     color: #2196F3;
 }
 
-.button{
+.main-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background-color: #2F303A;
+color: var(--one-of-main-colors);
+}
+
+.portfolio-button{
     list-style: none;
     text-decoration: none;
 background: #F5F4FA;
 border-radius: 4px;
 }
-.button-text{
+.portfolio-button-text{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -90,6 +103,9 @@ button:hover,
 button:focus{
     background-color: #2196F3;
 }
+
+
+
 
 .portfolio-title{
 font-family: 'Roboto';
@@ -129,12 +145,10 @@ color: #2196F3;
     text-decoration: none;
     color: var(--one-of-main-colors);
 }
-.footer-back{
-    background-color: #2F303A;
-}
+
+
 .adres{
 text-decoration: none;
-
 font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 400;
@@ -142,5 +156,94 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--one-of-main-colors);
+}
+
+/* HMW2 STYLES */
+
+
+
+.button{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--one-of-main-colors);
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.sub-title{
+font-family: var(--main-font-roboto);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.paragraph{
+font-family: var(--main-font-roboto);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.team-activity{
+    font-family: var(--main-font-roboto);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-member{
+font-family: var(--main-font-roboto);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.position{
+font-family:var(--main-font-roboto);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+.footer-back{
+    background-color: #2F303A;
+}
+.main-back{
+  background-color: #2F303A;
+}
+.team-back{
+    background: #F5F4FA;
 }
 
