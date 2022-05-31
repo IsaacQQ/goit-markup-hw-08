@@ -90,6 +90,7 @@ font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.03em;
 color: var(--header-color);
+cursor: pointer;
 }
 .portfolio-button-text:hover,
 .portfolio-button-text:focus{
