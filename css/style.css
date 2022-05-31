@@ -5,6 +5,8 @@
 --blue-color: #2196F3;
 --black-one: #000000;
 --sub-font-raleway: 'Raleway';
+--background: #2F303A;
+--paragraph-color: #757575;
 }
 
 body{
@@ -67,7 +69,6 @@ color: var(--header-color);
 }
 
 .main-title{
-    font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -83,13 +84,16 @@ cursor: pointer;
 border-radius: 4px;
 }
 .portfolio-button-text{
-    font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--header-color);
+}
+.portfolio-button-text:hover,
+.portfolio-button-text:focus{
+    color: var(--one-of-main-colors);
 }
 button:hover,
 button:focus{
@@ -98,24 +102,22 @@ button:focus{
 
 
 .portfolio-title{
-font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--header-color);
 }
 
 
 .main-paragraph{
-font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--paragraph-color);
 }
 
 
@@ -139,7 +141,6 @@ color: var(--blue-color);
 
 .adres{
 text-decoration: none;
-font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -153,7 +154,6 @@ color: var(--one-of-main-colors);
 
 
 .button{
-    font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -167,7 +167,6 @@ border-radius: 4px;
 }
 
 .sub-title{
-font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -179,17 +178,15 @@ color: var(--header-color);
 }
 
 .paragraph{
-font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--paragraph-color);
 }
 
 .team-activity{
-    font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -200,7 +197,6 @@ color: var(--header-color);
 }
 
 .team-member{
-font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -211,24 +207,27 @@ color: var(--header-color);
 }
 
 .position{
-font-family:var(--main-font-roboto);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--paragraph-color);
 }
 
 
 .footer-back{
-    background-color: #2F303A;
+    background-color: var(--background);
 }
 .main-back{
-  background-color: #2F303A;
+  background-color: var(--background);
 }
 .team-back{
     background: #F5F4FA;
 }
 
+.adres:hover,
+.adres:focus{
+    color: var(--blue-color);
+}
