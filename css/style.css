@@ -50,10 +50,7 @@ ul {
 .team{
     padding-bottom: 94px;
 }
-.footer-flex{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .header-list{
     display: flex;
 }
@@ -106,12 +103,29 @@ margin-right: 30px;
 display: flex;
 }
 .team-list-item{
-
+margin-right: 30px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .hiden{
     opacity: 0;
 }
+
+.footer-item1{
+    margin-top: 20px;
+}
+.footer-item2{
+    margin-top: 10px;
+}
+.img1{
+    margin-bottom: 30px;
+}
+
+.name-surname{
+
+}
+
+
 /*------------------------------------------------------------FLEX------------------------------------------*/
 .header{
     padding-top: 32px;
@@ -311,6 +325,7 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-color);
+margin-bottom: 10px;
 }
 
 .position{
@@ -321,11 +336,13 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--paragraph-color);
+margin-bottom: 30px;
 }
 
 
 .footer-back{
     background-color: var(--background);
+    padding: 60px 0;
 }
 .main-back{
   background-color: var(--background);
