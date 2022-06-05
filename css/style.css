@@ -9,13 +9,97 @@
 --paragraph-color: #757575;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
 body{
     font-family: var(--main-font-roboto);
 }
 
+a {
+    text-decoration: none;
+}
 
 ul {
+    margin: 0;
+    padding-left: 0;
     list-style: none;
+}
+/*------------------------------------------------------------FLEX------------------------------------------*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
+/*.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+*/
+.main-content{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.benefits{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-activity-flex{
+    padding-bottom: 188px;
+}
+.team{
+    padding-bottom: 94px;
+}
+.footer-flex{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.header-list{
+    display: flex;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header-contact-flex{
+    margin-left: auto;
+}
+.logo{
+    margin-right: 93px;
+}
+.header-link:not(:last-child){
+    margin-right: 50px;
+}
+
+.mail-color:not(:last-child){
+margin-right: 50px;
+}
+.contact-wrap{
+    display: flex;
+    margin-right: 50px;
+}
+
+.container .main-content {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+/*------------------------------------------------------------FLEX------------------------------------------*/
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .logo{
 text-decoration: none;
@@ -24,20 +108,17 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-
 letter-spacing: 0.03em;
-
 color: var(--blue-color);
-
+padding-top: 24px;
 }
 .logo_second{
-
+   padding-top: 24px;
     color: #000000;
 
 }
 
 .header-link{
-    
 text-decoration: none;
 font-family: var(--main-font-roboto);
 font-style: normal;
@@ -73,10 +154,12 @@ font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--one-of-main-colors);
+margin-bottom: 30px;
+max-width: 700px;
+align-items: center;
 }
 
 .portfolio-button{
@@ -133,6 +216,7 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: var(--blue-color);
+
 }
 .footer-logo-color{
     text-decoration: none;
@@ -166,6 +250,7 @@ background: var(--blue-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
+max-width: 200px;
 }
 
 .sub-title{
@@ -175,8 +260,9 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: var(--header-color);
+
+margin-bottom: 10px;
 }
 
 .paragraph{
@@ -196,6 +282,7 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-color);
+padding-bottom: 50px;
 }
 
 .team-member{
@@ -233,3 +320,4 @@ color: var(--paragraph-color);
 .adres:focus{
     color: var(--blue-color);
 }
+
