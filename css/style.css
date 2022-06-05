@@ -96,6 +96,16 @@ flex-direction: column;
 }
 
 
+.container .benefits{
+    display: flex;
+}
+
+
+
+.sub-title .paragraph{
+    display: flex;
+}
+
 /*------------------------------------------------------------FLEX------------------------------------------*/
 .header{
     padding-top: 32px;
