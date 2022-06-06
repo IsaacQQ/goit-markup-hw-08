@@ -346,22 +346,26 @@ color: var(--one-of-main-colors);
 
 
 .button{
+    font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.06em;
 color: var(--one-of-main-colors);
-background: var(--blue-color);
+background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
 max-width: 200px;
 padding-top: 10px;
 padding-bottom: 10px;
-padding-left: 20px;
-padding-right: 20px;
+padding-left: 30px;
+padding-right: 30px;
+border: 0;
 }
+
+
 
 .sub-title{
 font-style: normal;
