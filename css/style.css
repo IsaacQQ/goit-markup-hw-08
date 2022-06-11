@@ -194,6 +194,152 @@ img {
 
 /*------------------------------------------------------------FLEX------------------------------------------*/
 
+
+
+
+
+/*     -------------------------SVG STUFF--------------------      */
+
+/*benefits*/
+
+.benefits-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-icon{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.benefits-list-item{
+background: #F5F4FA;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+align-items: center;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+.benefits-list-item:last-child{
+    margin-right: 0;
+}
+
+.benefits-link{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+
+/*benefits*/
+
+
+
+
+
+
+
+
+
+/*----TEAM----*/
+.worker-soc-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.worker-soc-item{
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.worker-soc-item:first-child{
+    margin-left: 0;
+}
+
+.worker-soc-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+.worker-soc-icon{
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+   
+}
+
+.worker-soc-link:hover,
+.worker-soc-link:focus{
+background-color:#2196F3;
+}
+
+.worker-soc-link:hover .worker-soc-icon,
+.worker-soc-link:focus .worker-soc-icon{
+fill: #ffffff ;
+}
+/*----TEAM----*/
+
+
+/*CLIENTS*/
+
+.clients-list{
+display: flex;
+justify-content: center;
+}
+
+.clients-item:not(:last-child){
+margin-right: 30px;
+}
+
+.client-link{
+display: flex;
+fill: #AFB1B8; 
+align-items: center;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+width: 170px;
+height: 92px;
+}
+
+.client-link:hover,
+.client-link:focus{
+border-color: var(--blue-color);
+fill: var(--blue-color);
+}
+
+
+
+.clients-icon{
+    color: #AFB1B8;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 16px 32px;
+}
+
+/*CLIENTS*/
+
+
+
+
+
+
+
+
+
+
+/*     -------------------------SVG STUFF--------------------      */
+
 .logo{
 text-decoration: none;
 font-family: var(--sub-font-raleway);
@@ -415,7 +561,7 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--paragraph-color);
-margin-bottom: 30px;
+margin-bottom: 16px;
 }
 
 
@@ -424,6 +570,10 @@ margin-bottom: 30px;
     padding: 60px 0;
 }
 .main-back{
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   background-color: var(--background);
   text-align: center;
   padding-top: 200px;
