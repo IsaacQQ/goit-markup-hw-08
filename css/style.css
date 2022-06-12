@@ -135,6 +135,7 @@ color: var(--blue-color);
 }
 
 
+
 /*--------------------PORTFOLIO FLEX----------------*/
 
 .btn-flex{
@@ -324,7 +325,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+margin-bottom: 20px;
 color: #FFFFFF;
 }
 
@@ -362,6 +363,17 @@ color: #FFFFFF;
 .footer-contact-link:focus{
     background-color: var(--blue-color);
 }
+
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+.footer-contact-soc{
+    margin-left: 70px;
+}
+
+
 
 /*CLIENTS*/
 
