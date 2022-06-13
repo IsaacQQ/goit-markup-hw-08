@@ -145,6 +145,8 @@ color: var(--blue-color);
 
 }
 
+
+
 .btn-flex-item:not(:last-child){
 margin-right: 8px;
 }
@@ -518,8 +520,15 @@ background: #F5F4FA;
 border: 0;
 min-width: 73px;
 min-height: 38px;
+max-width: 145px;
+border-radius: 4px;
 }
+
+
+
+
 .portfolio-button-text{
+font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -527,6 +536,7 @@ line-height: 26px;
 letter-spacing: 0.03em;
 color: var(--header-color);
 cursor: pointer;
+padding: 6px 22px;
 }
 .portfolio-button-text:hover,
 .portfolio-button-text:focus{
