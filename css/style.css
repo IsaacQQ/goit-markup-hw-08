@@ -134,15 +134,15 @@ color: #FFFFFF;
 }
 
 /*ЛИНИЯ ПОДЧЁРКИВАНИЯ ССЫЛКИ*/
-.header-item {
+
+.header-line {
   position: relative;
-  color: #00a650;
   cursor: pointer;
   line-height: 1; 
   text-decoration: none;
 }
 
-.header-item:after {
+.header-line:after {
   display: block;
   position: absolute;
   left: 0;  
@@ -154,8 +154,8 @@ color: #FFFFFF;
   transition: width 0.3s ease-out; 
 }
 
-.header-item:hover:after,
-.header-item:focus:after {
+.header-line:hover:after,
+.header-line:focus:after {
   width: 100%;
 }
 /*ЛИНИЯ ПОДЧЁРКИВАНИЯ ССЫЛКИ*/
