@@ -133,7 +133,7 @@ padding: 28px 75px;
 color: #FFFFFF;
 }
 
-
+/*ЛИНИЯ ПОДЧЁРКИВАНИЯ ССЫЛКИ*/
 .header-item {
   position: relative;
   color: #00a650;
@@ -158,7 +158,7 @@ color: #FFFFFF;
 .header-item:focus:after {
   width: 100%;
 }
-
+/*ЛИНИЯ ПОДЧЁРКИВАНИЯ ССЫЛКИ*/
 
 .hiden{
     opacity: 0;
