@@ -151,13 +151,15 @@ color: #FFFFFF;
   background: #2196F3;
   border-radius: 2px;
   content: "";
-  transition: width 0.3s ease-out; 
+  transition: width 0.3s ease-out;
+  width: 100%; 
 }
 
-.header-line:hover:after,
+/* .header-line:hover:after,
 .header-line:focus:after {
   width: 100%;
-}
+} */
+
 /*ЛИНИЯ ПОДЧЁРКИВАНИЯ ССЫЛКИ*/
 
 .hiden{
