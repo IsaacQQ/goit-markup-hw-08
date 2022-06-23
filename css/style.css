@@ -869,5 +869,5 @@ transition: transform 250ms linear;
 
 .modal-close-btn:hover .modal-icon,
 .modal-close-btn:focus .modal-icon{
-    fill: #757575;
+    fill: var(--blue-color);
 }
