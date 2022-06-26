@@ -1020,6 +1020,7 @@ border-radius: 4px;
 width: 358px;
 height: 50px;
 margin-right: 12px;
+padding-left: 16px;
 }
 .footer-input::placeholder{
 font-family: 'Roboto';
@@ -1031,7 +1032,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-padding-left: 16px;
+
 }
 
 .footer-input:focus{
@@ -1046,6 +1047,9 @@ margin-left: 93px;
 
 
 .footer-mailing-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 font-family: var(--main-font-roboto);
 font-style: normal;
 font-weight: 700;
@@ -1071,11 +1075,7 @@ margin-right: 5px;
 }
 
 .footer-mailing-icon{
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-
+    margin-left: 10px;
 }
 
 .visually-hidden{
