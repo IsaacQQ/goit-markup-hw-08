@@ -122,10 +122,10 @@ margin-right: 30px;
 }
 
 .pic-text-style{
-    position: absolute;
-    background: rgba(47, 48, 58, 0.8);
-    width: 360px;
-    height: 70px;
+position: absolute;
+background: rgba(47, 48, 58, 0.8);
+width: 360px;
+height: 70px;
 bottom: 0;
 font-family: 'Roboto';
 font-style: normal;
@@ -1069,7 +1069,6 @@ border: 0;
 padding: 10px 28px;
 position: relative;
 margin-right: 5px;
-
 }
 
 .btn-pos{

@@ -1,0 +1,135 @@
+.header-list{
+    display: flex;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    
+}
+.header-contact-flex{
+    margin-left: auto;
+}
+.header-link:not(:last-child){
+    margin-right: 50px;
+}
+.header-line {
+  position: relative;
+  cursor: pointer;
+  line-height: 1; 
+  text-decoration: none;
+}
+
+.header-line:after {
+  display: block;
+  position: absolute;
+  left: 0;  
+  width: 0;
+  height: 2px; 
+  background: #2196F3;
+  border-radius: 2px;
+  content: "";
+  transition: width 0.3s ease-out;
+  width: 100%; 
+}
+.mail-icon{
+    
+    margin-right: 10px;
+    align-items: center;
+    width: 16px;
+    height: 12px;
+    
+}
+
+.phone-icon{
+
+    margin-right: 10px;
+    align-items: center;
+    width: 10px;
+    height: 16px;
+    
+}
+
+.header-link:hover .phone-icon,
+.header-link:focus .phone-icon{
+    fill: var(--blue-color);
+
+}
+.header-link:hover .mail-icon,
+.header-link:focus .mail-icon{
+    fill: var(--blue-color);
+}
+.header-link{
+    color: var(--header-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover,
+.header-link:focus{
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+.header-item{
+text-decoration: none;
+font-family: var(--main-font-roboto);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--header-color);
+}
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.header-item:hover,
+.header-item:focus{
+color: var(--blue-color);
+text-decoration: none;
+}
+.header-contact{
+text-decoration: none;
+color: var(--header-color);
+}
+.header-contact:focus,
+.header-contact:hover{
+    color: var(--blue-color);
+
+}
+.logo{
+    margin-right: 93px;
+}
+.logo{
+text-decoration: none;
+font-family: var(--sub-font-raleway);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--blue-color);
+}
+.logo_second{
+    color: #000000;
+}
+
+.contact-wrap{
+    align-items: baseline;
+    display: flex;
+}
+
+.mail-color:not(:last-child){
+margin-right: 50px;
+}
+.mail-color{
+   color:#757575;
+    transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
