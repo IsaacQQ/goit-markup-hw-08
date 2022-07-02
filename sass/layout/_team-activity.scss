@@ -8,13 +8,13 @@ letter-spacing: 0.03em;
 color: var(--header-color);
 margin-bottom: 50px;
 }
-.team-activity-list{
+.team-activity__list{
     display: flex;
 }
-.team-activity-item:not(:last-child){
+.team-activity__item:not(:last-child){
 margin-right: 30px;
 }
-.pic-text1{
+.pic-text{
     position: relative;
 }
 

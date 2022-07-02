@@ -4,7 +4,7 @@
     margin-bottom: 50px;
     
 }
-.btn-flex-item:not(:last-child){
+.btn-flex__item:not(:last-child){
 margin-right: 8px;
 }
 .modal-close-btn{
@@ -37,7 +37,7 @@ cursor: pointer;
 background: #F5F4FA;
 border: 0;
 border-radius: 4px;
- transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+ transition: background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
