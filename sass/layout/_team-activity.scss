@@ -2,11 +2,33 @@
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 33px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-color);
 margin-bottom: 50px;
+@media screen and (min-width: 480px) {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 30px;
+color: #212121;
+    }
+    @media screen and (min-width: 720px) {
+       font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 30px;
+color: #212121; 
+    }
 }
 .team-activity__list{
     display: flex;
