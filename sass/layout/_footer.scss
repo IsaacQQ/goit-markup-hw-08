@@ -67,7 +67,22 @@ color: #FFFFFF;
 
 .footer-container{
     display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
     align-items: baseline;
+        @media screen and (min-width: 360px) {
+     width: calc((100% - 0px) / 1);
+    }
+    @media screen and (min-width: 480px) {
+     width: calc((100% - 0px) / 2);
+    }
+    @media screen and (min-width: 720px) {
+        width: calc((100% - 0px) / 3);
+        
+    }
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 0px) / 4);
+    }
 }
 .footer-contact-soc{
     margin-left: 70px;
