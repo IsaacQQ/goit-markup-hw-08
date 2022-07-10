@@ -84,6 +84,10 @@ text-transform: uppercase;
 color: var(--header-color);
 margin-bottom: 10px;
 margin-top: 30px;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+}
 }
 
 .paragraph{
