@@ -104,4 +104,48 @@ margin-right: 5px;
 @media screen and (min-width: 480px) and (max-width: 767px) {
     margin-top: 20px;
     } 
+@include small{
+    margin-top: 20px;
+}
+}
+
+
+.mobile-btn {
+    display: block;
+    margin-left: auto;
+    background-color: #ffffff;
+    border: 0;
+    @include tablet{
+        display: none;
+    }
+    @include desktop{
+        display: none;
+    }
+}
+.mobile-menu-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu-icon:hover,
+.mobile-menu-icon:focus{
+    fill: #2196F3;
+}
+
+.mob-close-btn{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.mob-close-btn:hover,
+.mob-close-btn:focus{
+    fill: #2196F3;
+}
+
+.close-open-btn{
+    display: block;
+    margin-left: auto;
+    background-color: #ffffff;
+    border: 0;
 }

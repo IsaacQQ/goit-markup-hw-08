@@ -25,6 +25,9 @@
                 <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
             </ul>
             </div>
+             <button type="button" class="mobile-btn"><svg class="mobile-menu-icon">
+                    <use href="./images/icons.svg#icon-mobile_button"></use>
+                </svg></button>
             <div class="header-contact-flex">
             <ul class="contact-wrap">
                 <li class="header__item"><a href="mailto:info@devstudio.com" class="header__link mail-color"><svg class="mail-icon">
@@ -38,6 +41,36 @@
             </ul>
             </div>
         </nav>
+        <div class="container">
+            <div class="mob-menu is-hidden">
+            <button type="button" class="close-open-btn"><svg class="mob-close-btn">
+                <use href="./images/icons.svg#icon-mob-close-btn"></use>
+            </svg></button>
+            <div class="mob-menu__wrap">
+            <ul class="mob-menu__list">
+                <li class="mob-menu__item"><a href="./index.html" class="mob-menu__link">Студия</a></li>
+                <li class="mob-menu__item"><a href="./portfolio.html" class="mob-menu__link">Портфолио</a></li>
+                <li class="mob-menu__item"><a href="#" class="mob-menu__link">Контакты</a></li>
+            </ul>
+            </div>
+            <div class="mob-menu-contact">
+            <ul class="mob-wrap">
+                <li class="mob-wrap__item"><a href="tel:+380961111111" class="mob-color">+38 096 111 11 11</a>
+                </li>
+                <li class="mob-wrap__item"><a href="mailto:info@devstudio.com" class="mob-wrap__link mail-color">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-soc-list">
+                <li class="mobile-soc-item">Instagram</li>
+                <li class="mob-soc-line"></li>
+                <li class="mobile-soc-item">Twitter</li>
+                <li class="mob-soc-line"></li>
+                <li class="mobile-soc-item">Facebook</li>
+                <li class="mob-soc-line"></li>
+                <li class="mobile-soc-item">LinkedIn</li>
+            </ul>
+            </div>
+        </div>
         </div>
     </header>
     <main>
@@ -185,5 +218,6 @@
         </form>
        </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

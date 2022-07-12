@@ -4,6 +4,7 @@ flex-wrap: wrap;
 gap: 30px;
 width: 100%;
 justify-content: space-evenly;
+
 }
 
 .clients-item{
@@ -19,6 +20,7 @@ justify-content: space-evenly;
     }
     @media screen and (min-width: 1200px) {
         width: calc((100% - 900px) / 6);
+        
         
     }
 }
@@ -36,6 +38,9 @@ width: 170px;
 height: 92px;
 justify-content: center;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1) ease-out;
+@include small{
+    width: 210px;
+}
 @media screen and (min-width: 480px) {
    width: 210px;
       
