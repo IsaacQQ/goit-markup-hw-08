@@ -2,10 +2,16 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    
+    @include mobile{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
 .btn-flex__item:not(:last-child){
 margin-right: 8px;
+@include mobile{
+    margin-bottom: 15px;
+}
 }
 .modal-close-btn{
     cursor: pointer;

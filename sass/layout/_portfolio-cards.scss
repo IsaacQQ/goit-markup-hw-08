@@ -1,5 +1,5 @@
 .card-list{
-    width: 1200px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -7,6 +7,12 @@
     padding: 0;
     margin-top: -30px;
     margin-left: -30px;
+    @include mobile{
+       flex-direction: column;
+       align-content: center;
+       width: calc((100% - 30px) / 1);
+    }
+    
 }
 
 .card-list__item{
@@ -15,6 +21,9 @@
     margin-top: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     position: relative;
+    @include tablet{
+        width: calc((100% - 30px));
+    }
 }
 .card-list__item:hover,
 .card-list__item:focus{
