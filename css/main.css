@@ -1186,6 +1186,12 @@ img {
     margin-right: 45px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-flex {
+    align-items: flex-start;
+  }
+}
+
 .footer-container {
   display: flex;
   flex-wrap: wrap;
