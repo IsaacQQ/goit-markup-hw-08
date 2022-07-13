@@ -1,5 +1,4 @@
 .card-list{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -7,6 +6,7 @@
     padding: 0;
     margin-top: -30px;
     margin-left: -30px;
+    
     @include small{
         flex-direction: column;
        align-content: center;
@@ -27,6 +27,9 @@
     margin-top: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     position: relative;
+    @include tablet{
+        flex-basis: calc((100% - 60px) / 2);
+    }
 }
 .card-list__item:hover,
 .card-list__item:focus{
