@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    @include small{
+         flex-wrap: wrap;
+        justify-content: flex-start;
+    }
     @include mobile{
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -9,8 +13,11 @@
 }
 .btn-flex__item:not(:last-child){
 margin-right: 8px;
+@include small{
+margin-bottom: 15px;
+}
 @include mobile{
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 }
 .modal-close-btn{
