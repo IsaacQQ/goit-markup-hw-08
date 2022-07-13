@@ -1652,7 +1652,7 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-list__item {
-    flex-basis: calc((100% - 60px) / 2);
+    flex-basis: calc((100% - 61px) / 2);
   }
 }
 
