@@ -62,15 +62,17 @@ img {
   }
 }
 
-.section {
-  padding: 94px 0;
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .section {
+    padding-bottom: 110px;
+  }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .section {
     padding: 60px 0;
   }
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
     padding: 60px 0;
   }
@@ -83,6 +85,11 @@ img {
 
 .hiden {
   opacity: 0;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .hiden {
+    display: none;
+  }
 }
 
 .visually-hidden {
@@ -151,6 +158,12 @@ img {
   content: "";
   transition: width 0.3s ease-out;
   width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__line:after {
+    height: 3px;
+    top: 53px;
+  }
 }
 
 .mail-icon {
@@ -259,7 +272,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-wrap {
     flex-direction: column;
-    margin-left: 84px;
+    margin-left: 40px;
   }
 }
 
@@ -663,6 +676,12 @@ img {
     max-width: 420px;
   }
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .mobile-unset {
+    display: none;
+  }
+}
+
 .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -797,8 +816,7 @@ img {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .team-activity,
-.team-activity__list,
+  .team-activity__list,
 .pic-text,
 .team-activity__item,
 .pic-text-style {
@@ -806,8 +824,7 @@ img {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .team-activity,
-.team-activity__list,
+  .team-activity__list,
 .pic-text,
 .team-activity__item,
 .pic-text-style {
@@ -815,12 +832,39 @@ img {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  .team-activity,
-.team-activity__list,
+  .team-activity__list,
 .pic-text,
 .team-activity__item,
 .pic-text-style {
     display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .mobile-none {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .mobile-none {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile-unset {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .for-tablet {
+    padding: 0px 0px 50px 0px;
   }
 }
 
@@ -894,12 +938,12 @@ img {
 .team-back {
   background: #F5F4FA;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .team-back {
     margin-top: 120px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .team-back {
     margin-top: 120px;
   }
@@ -1164,7 +1208,6 @@ img {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -1332,6 +1375,11 @@ img {
   padding-left: 16px;
   color: #ffffff;
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-input {
+    width: 300px;
+  }
+}
 
 .footer-input::placeholder {
   font-family: "Roboto";
@@ -1457,6 +1505,16 @@ img {
   border-radius: 4px;
   transition: transform 250ms linear;
   padding: 40px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .modal {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .modal {
+    width: 450px;
+  }
 }
 
 .modal-icon {
@@ -1585,6 +1643,14 @@ img {
   display: flex;
   align-items: center;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .check-text {
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .input-privacy {
   font-family: var(--main-font-roboto);
@@ -1595,6 +1661,12 @@ img {
   letter-spacing: 0.03em;
   text-decoration: underline var(--blue-color);
   color: var(--blue-color);
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .input-privacy {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .check-text::before {

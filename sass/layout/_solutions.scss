@@ -89,3 +89,8 @@ max-width: 420px;
    
   }
 }
+.mobile-unset{
+  @include mobile{
+    display: none;
+  }
+}

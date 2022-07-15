@@ -1,15 +1,21 @@
 .section{
-    padding: 94px 0;
-    @media screen and (min-width: 480px) {
+    // padding: 94px 0;
+    @include small{
+            padding-bottom: 110px;
+    }
+    @include mobile {
         padding: 60px 0;
     }
-    @media screen and (min-width: 720px) {
+    @include tablet {
        padding: 60px 0;
     }
-    @media screen and (min-width: 1200px) {
+    @include desktop {
         padding: 94px 0;
     }
 }
 .hiden{
     opacity: 0;
+    @include mobile{
+        display: none;
+    }
 }

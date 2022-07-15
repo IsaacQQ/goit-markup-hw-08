@@ -25,6 +25,12 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 4px;
 transition: transform 250ms linear;
 padding: 40px;
+@include small{
+    width: 320px;
+}
+@include mobile {
+    width: 450px;
+}
 }
 
 .modal-icon{
@@ -155,6 +161,12 @@ letter-spacing: 0.03em;
 color: #757575;
 display: flex;
 align-items: center;
+@include mobile{
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    justify-content: center;
+}
 }
 
 .input-privacy{
@@ -166,6 +178,10 @@ line-height: 24px;
 letter-spacing: 0.03em;
 text-decoration: underline var(--blue-color);
 color: var(--blue-color);
+@include mobile{
+    font-size: 12px;
+    line-height: 14px;
+}
 }
 
 .check-text::before{

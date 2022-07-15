@@ -114,7 +114,7 @@ margin-top: 10px;
 }
 
 
-.team-activity,
+// .team-activity,
 .team-activity__list,
 .pic-text,
 .team-activity__item,
@@ -127,5 +127,28 @@ margin-top: 10px;
     }
     @include small{
         display: none;
+    }
+}
+.mobile-none{
+    @include small{
+display: none;
+    }
+    @include mobile{
+display: none;
+    }
+    @include tablet{
+display: none;
+    }
+}
+
+.mobile-unset{
+    @include tablet{
+        display: none;
+    }
+}
+
+.for-tablet{
+    @include tablet{
+        padding: 0px 0px 50px 0px;
     }
 }

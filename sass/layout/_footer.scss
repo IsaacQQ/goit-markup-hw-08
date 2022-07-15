@@ -89,7 +89,7 @@ justify-content: center;
         flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 60px; 
+        
     }
     @media screen and (min-width: 480px) and (max-width: 767px){
         display: flex;
@@ -230,6 +230,9 @@ height: 50px;
 margin-right: 12px;
 padding-left: 16px;
 color: #ffffff;
+@include small{
+    width: 300px;
+}
 }
 .footer-input::placeholder{
 font-family: 'Roboto';
