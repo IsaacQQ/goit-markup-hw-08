@@ -7,6 +7,9 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-color);
 margin-bottom: 50px;
+@include small {
+padding-top: 60px;
+}
 @media screen and (min-width: 480px) {
         font-family: 'Roboto';
 font-style: normal;
@@ -28,6 +31,9 @@ text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 30px;
 color: #212121; 
+    }
+    @include desktop {
+        padding-top: 94px;
     }
 }
 .team-activity__list{

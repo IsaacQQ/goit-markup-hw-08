@@ -8,24 +8,22 @@ justify-content: space-evenly;
 }
 
 .clients-item{
-    @media screen and (min-width: 360px) {
-     
+    @include small {
+    //  width: calc((100% - 150px) / 2);
     }
-    @media screen and (min-width: 480px) {
-     
-    }
-    @media screen and (min-width: 720px) {
-        width: calc((100% - 30px) / 4);
+    
+    @include tablet{
+        width: calc((100% - 60px) / 3);
         
     }
-    @media screen and (min-width: 1200px) {
-        width: calc((100% - 900px) / 6);
+    @include desktop {
+        width: calc((100% - 150px) / 6);
         
         
     }
 }
 .clients-item:not(:last-child){
-margin-right: none;
+// margin-right: none;
 
 }
 

@@ -10,6 +10,9 @@
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+@include desktop {
+    padding-top: 94px;
+}
 }
 .btn-flex__item:not(:last-child){
 margin-right: 8px;
